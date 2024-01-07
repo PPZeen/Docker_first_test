@@ -1,3 +1,9 @@
+## Git Clone
+
+```bash
+git clone https://github.com/PPZeen/Docker_first_test.git
+```
+
 ## Installation
 
 install node_modules and packages json
