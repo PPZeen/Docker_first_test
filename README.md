@@ -2,7 +2,7 @@
 
 install node_modules and packages json
 
-In work directory api-dev and api-test 
+In work directory **api-dev** and **api-test** 
 
 ```bash
 npm init
@@ -10,7 +10,7 @@ npm i express, mysql2
 ```
 ### Open Docker Decktop before run docker-compose
 
-In work directory api-dev and api-test 
+In work directory **api-dev** and **api-test** 
 
 ```bash
 docker-compose up -d --build
