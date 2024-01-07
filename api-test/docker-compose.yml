@@ -1,0 +1,31 @@
+version: '3'
+services:
+  api:
+    image: test-node    # image name
+    container_name: api-test # container name
+    build: .    # docker file path (default: Dockerfile)
+    ports:
+      - "8082:8080"   # port out:in
+  db-test:
+    image: mysql:latest
+    container_name: db-test
+    command: --default-authentication-plugin=mysql_native_password
+    environment:
+      MYSQL_ROOT_PASSWORD: root
+      MYSQL_DATABASE: db-test
+    ports:
+      - "3307:3306"
+    volumes:
+      - ./db-test:/var/lib/mysql
+  phpmyadmin: # ไว้ใช้ manage db-test
+    image: phpmyadmin/phpmyadmin:latest
+    container_name: phpmyadmin-test
+    environment:
+      PMA_HOST: db-test
+      PMA_PORT: 3306
+      PMA_USER: root
+      PMA_PASSWORD: root
+    ports:
+      - "8084:80"
+    depends_on:
+      - db-test
