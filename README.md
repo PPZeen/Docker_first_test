@@ -34,7 +34,7 @@ go to **localhost:8082** or **localhost:8084** <br />
 ```diff
 -if php access denied or other error try reload page.
 ```
-- click db-[...]
+- click **db-[...]**
 - table name: **users** / number of columns: **3**
 - **create database** uid (INT, Primary Key, select AI), name (VARCHARR 255), age (INT) and click **save**
 - click **Insert** > fill name and age > click **GO** > successfull
