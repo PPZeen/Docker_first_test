@@ -32,7 +32,7 @@ docker-compose up -d --build
 
 go to **localhost:8082** or **localhost:8084** <br />
 ```diff
--if php access denied od error try reload page
+-if php access denied or other error try reload page.
 ```
 - click db-[...]
 - table name: **users** / number of columns: **3**
