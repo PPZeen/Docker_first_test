@@ -33,8 +33,8 @@ docker-compose up -d --build
 go to **localhost:8082** or **localhost:8083**
 - click db-[...]
 - first fill 'users' and second fill 3
-- create database uid (INT, Primary Key, select AI), name (VARCHARR 255), age (INT) and click GO
-- click Insert > fill name and age > click GO > successfull
+- **create database** uid (INT, Primary Key, select AI), name (VARCHARR 255), age (INT) and click GO
+- **click** Insert > fill name and age > **click** GO > successfull
 
 ## Test API connected DB 
 
