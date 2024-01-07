@@ -24,8 +24,8 @@ docker-compose up -d --build
 ## Ports
 
 - **8081** for api-dev
-- **8082** for manage db-dev
-- **8083** for api-test
+- **8082** for api-test
+- **8083** for manage db-dev
 - **8084** for manage db-test
 
 ## Manage DB - Create users table
