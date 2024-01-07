@@ -30,7 +30,7 @@ docker-compose up -d --build
 
 ## Manage DB - Create users table
 
-go to **localhost:8082** or **localhost:8083** <br />
+go to **localhost:8082** or **localhost:8084** <br />
 ```diff
 -if php access denied od error try reload page
 ```
