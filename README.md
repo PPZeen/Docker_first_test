@@ -28,13 +28,13 @@ docker-compose up -d --build
 - **8083** for api-test
 - **8084** for manage db-test
 
-## Manage DB
+## Manage DB - Create users table
 
 go to **localhost:8082** or **localhost:8083**
 - click db-[...]
-- first fill 'users' and second fill 3
-- **create database** uid (INT, Primary Key, select AI), name (VARCHARR 255), age (INT) and click GO
-- **click** Insert > fill name and age > **click** GO > successfull
+- table name: users / number of columns: 3
+- **create database** uid (INT, Primary Key, select AI), name (VARCHARR 255), age (INT) and click **save**
+- click **Insert** > fill name and age > click **GO** > successfull
 
 ## Test API connected DB 
 
